@@ -79,7 +79,7 @@ public class BasketballController : MonoBehaviour
                 IsBallFlying = false;
                 Ball.GetComponent<Rigidbody>().isKinematic = false;
                 ScoreManager.instance.AddPoint();
-                //ScoreManager.instance.Win();
+                ScoreManager.instance.Win();
             }
         }
     }

@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString() + " Points";
         if (highscore < score)
             PlayerPrefs.SetInt("Highscore", score);
-        Win();
+        
        
     }
     public void Win() 
